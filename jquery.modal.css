@@ -120,7 +120,7 @@
   text-transform: uppercase;
 }
 
-.jmodal > p:first-child {
+.jmodal > p:first-of-type {
   color: #666;
   font-family: 'open_sans_bold';
   font-size: 18px;
