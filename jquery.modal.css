@@ -111,3 +111,19 @@
     -webkit-transform: scaleY(1.0);
   }
 }
+
+.btn[rel="jmodal:open"] {
+  color: #fff;
+  font-family: 'open_sans_bold';
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.jmodal > p:first-child {
+  color: #666;
+  font-family: 'open_sans_bold';
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
