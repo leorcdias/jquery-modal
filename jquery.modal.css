@@ -120,10 +120,27 @@
   text-transform: uppercase;
 }
 
-.jmodal > p:first-of-type {
+.jmodal > .modal-header {
+  margin-bottom: 1.5em;
+}
+
+.jmodal > .modal-header > p {
   color: #666;
   font-family: 'open_sans_bold';
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
+}
+
+.jmodal > .modal-content p {
+  font-size:14px;
+  margin: 20px 0;
+}
+
+.jmodal .modal-footer {
+  text-align:right;
+}
+
+.jmodal .modal-footer > .btn {
+  padding: 10px;
 }
